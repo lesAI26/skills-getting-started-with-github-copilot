@@ -74,6 +74,86 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants {
+  margin-top: 15px;
+  padding: 14px;
+  border: 1px solid #c5cae9;
+  border-radius: 8px;
+  background-color: #eef2ff;
+}
+
+.participants h5 {
+  margin-bottom: 10px;
+  color: #3949ab;
+  font-size: 1rem;
+}
+
+.participants ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.participants li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  padding: 4px 10px;
+  border: 1px solid #c5cae9;
+  border-radius: 999px;
+  background-color: white;
+  color: #303f9f;
+  overflow-wrap: anywhere;
+}
+
+.delete-participant {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin: -2px -6px -2px 0;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #6b7280;
+}
+
+.delete-participant:hover {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.delete-participant:focus-visible {
+  outline: 2px solid #3949ab;
+  outline-offset: 2px;
+}
+
+.delete-participant:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.delete-participant svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.participants p {
+  margin-bottom: 0;
+  color: #666;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
